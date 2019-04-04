@@ -6,9 +6,9 @@ module  bus_sync
     )
     
     (
-    input   logic                i_clk_b,
-    input   logic [BUS_WIDTH-1:0] i_data_a,
-    output  logic [BUS_WIDTH-1:0] o_data_b
+    input   wire                i_clk_b,
+    input   wire [BUS_WIDTH-1:0] i_data_a,
+    output  reg [BUS_WIDTH-1:0] o_data_b
     
 );
 

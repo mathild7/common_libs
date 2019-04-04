@@ -18,10 +18,10 @@ module  bus_sync
    logic [BUS_WIDTH-1:0]   sync_reg2;
    
    
-cov_core_bits_sync #(
+bits_sync #(
 	.BUS_WIDTH   (BUS_WIDTH  ), 
 	.NUM_RETIME  (NUM_RETIME )
-	) cov_core_bits_sync (
+	) bits_sync (
 	.i_clk_b     (i_clk_b    ), 
 	.i_data_a    (i_data_a   ), 
 	.o_data_b    (sync_reg1  ));

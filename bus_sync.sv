@@ -14,8 +14,8 @@ module  bus_sync
 
 
 
-   logic [BUS_WIDTH-1:0]   sync_reg1;
-   logic [BUS_WIDTH-1:0]   sync_reg2;
+   wire [BUS_WIDTH-1:0]   sync_reg1;
+   reg [BUS_WIDTH-1:0]   sync_reg2;
    
    
 bits_sync #(
